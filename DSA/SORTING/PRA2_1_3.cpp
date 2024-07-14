@@ -1,28 +1,25 @@
-#include <iostream>
+#include<bits/stdc++.h>
+
 
 using namespace std;
-int *selection_sort(int arr[], int size)
+
+int* insertion_sort(int *arr,int size)
 {
-    int min;
-    for (int i = 0; i < size - 1; i++)
+    int j;
+    for(int i=0;i<size;i++)
     {
-        min = i;
-        for (int j = i + 1; j < size; j++)
+        int key =arr[i];
+        j= i-1;
+        while(j>=0 && arr[j]>key)
         {
-            if (arr[j] < arr[i])
-            {
-                min = j;
-            }
+            arr[j+1] =arr[j];
+            j = j-1;
         }
-        if (min != i)
-        {
-            int temp = arr[min];
-            arr[min] = arr[i];
-            arr[i] = temp;
-        }
+        arr[j+1]=key;   
     }
     return arr;
 }
+
 int main()  
 {
     int size;
@@ -34,7 +31,7 @@ int main()
         cout << "A[" << i + 1 << "]=";
         cin >> arr[i];
     }
-    int *sorted = selection_sort(arr, size);
+    int *sorted = insertion_sort(arr, size);
     cout << "SORTED ARRAY IS:" << endl;
     for (int i = 0; i < size; i++)
     {

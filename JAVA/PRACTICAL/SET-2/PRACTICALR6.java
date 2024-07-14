@@ -36,6 +36,7 @@ public class PRACTICALR6 {
         System.out.println("CONVERTING IN UPPER CASSE OF THE GIVEN STRING IS:"+toupr(s1));
         System.out.println("CONVERTING IN REVERSE THE GIVEN STRING IS:"+rev(s1));
         System.out.println("CONVERTING IN SORT IN THE GIVEN STRING IS:"+sort(s1));
+System.out.println("THIS PROGRAM IS PERFORMED BY 23CS060-DHAVAL S PATEL");
 
     }
 }

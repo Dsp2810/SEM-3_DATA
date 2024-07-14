@@ -19,5 +19,6 @@ public class PR7 {
         System.out.println("THE LENGTH OF THE GIVEN STRING IS:" + s1.length());
         System.out.println("THE REPLACING OF THE CHAR OF THE GIVEN STRING IS:" + repl(s1,'H','N')); 
         System.out.println("CONVERTING IN UPPER CASSE OF THE GIVEN STRING IS:"+s1.toUpperCase());
+       System.out.println("THIS PROGRAM IS PERFORMED BY 23CS060-DHAVAL S PATEL");
     }
 }
