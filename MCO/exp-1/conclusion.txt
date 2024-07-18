@@ -1,1 +1,2 @@
 The experiment successfully implemented a circuit in Logisim to display decimal numbers in binary on a seven-segment display. For the first task, numbers from 0 to 9 were correctly displayed using binary input. In the second task, numbers from 0 to 99 were accurately shown using two seven-segment displays, each receiving appropriate binary inputs. The circuit functioned as intended, demonstrating the effective translation of binary inputs to decimal outputs on the displays
+
