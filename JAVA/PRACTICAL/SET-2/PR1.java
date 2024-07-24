@@ -17,6 +17,7 @@ public class PR1 {
             for (int i = 0; i < n; i++) {
                 System.out.print(s1);
             }
+            String s12 =null;
         }
         dp.close();
         System.out.println("THIS PROGRAM IS PERFORED BY 23CS060-DHAVAL S PATEL");
