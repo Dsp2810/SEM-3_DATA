@@ -8,5 +8,6 @@ public class PR1 {
         pound = dp.nextDouble();
         rupees = pound * 100;
         System.out.println("CONVERTION OF POUND INTO RUPEES IS :" + pound * 100);
+        System.out.println("THIS PROGRAM IS PERFORED BY 23CS060-DHAVAL S PATEL");
     }
 }

@@ -1,6 +1,6 @@
 //  SET-3;
 import java.util.*;
-public class Employee {
+ class Employee {
      String first_name,last_name;
      double m_salary;
     Employee()

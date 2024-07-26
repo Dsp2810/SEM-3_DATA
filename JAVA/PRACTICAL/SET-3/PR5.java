@@ -18,6 +18,8 @@ public class PR5 {
         Area a1 = new Area(12, 14);
         double area= a1.rectangle_area();
         System.out.println("THE AREA OF THE RECTANGLE IS: "+area);
+        System.out.println("THIS PROGRAM IS PERFORED BY 23CS060-DHAVAL S PATEL");
+
     }
     
 }

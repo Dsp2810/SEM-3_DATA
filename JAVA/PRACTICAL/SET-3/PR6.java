@@ -15,6 +15,8 @@ public class PR6 {
         System.out.println("ADITION OF TWO COMPLEX NUMBER IS:\n [ " + c3.real + " + " + c3.imaginary + "j ]");
         System.out.println("SUBTRACTION OF TWO COMPLEX NUMBER IS:\n [ " + c4.real + " + " + c4.imaginary + "j ]");
         System.out.println("MULTIPICATION OF TWO COMPLEX NUMBER IS:\n [ " + c5.real + " + " + c5.imaginary + "j ]");
+        System.out.println("THIS PROGRAM IS PERFORED BY 23CS060-DHAVAL S PATEL");
+
     }
 }
 
