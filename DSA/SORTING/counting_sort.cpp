@@ -33,16 +33,16 @@ int* counter_sort(int* ar, int size)
 int main()
 {
     int size;
-    cout << "ENTER THE SIZE OF THE ARRAY:" << endl;
+    // cout << "ENTER THE SIZE OF THE ARRAY:" << endl;
     cin >> size;
     int* arr = new int[size];
-    cout << "ENTER THE ELEMENTS OF THE ARRAY:" << endl;
+    // cout << "ENTER THE ELEMENTS OF THE ARRAY:" << endl;
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
     }
     int* sorted_array = counter_sort(arr, size);
-    cout << "SORTED ARRAY:" << endl;
+    // cout << "SORTED ARRAY:" << endl;
     for (int i = 0; i < size; i++)
     {
         cout << sorted_array[i] << " ";
