@@ -1,14 +1,14 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class PRA5_3 {
+public class PRA5_3a {
 
     public static void main(String[] args) {
         String s;
         Scanner dp = new Scanner(System.in);
         System.out.println("ENTER THE STRING: ");
-        s1 = dp.nextLine();
-        if (chechk_valid(s1)) {
+        s = dp.nextLine();
+        if (chechk_valid(s)) {
             System.out.println("THIS IS VALID PARENTHISIS");
         } else {
             System.out.println("THIS IS INVALID PARENTHISIS");
