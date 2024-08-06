@@ -1,21 +1,22 @@
+
 public class PR1 {
     public static void main(String[] args) {
-        parent p1 = new parent();
-        child c1 = new child();
-        c1.printdata();
-        p1.printdata();
+        Parent p1 = new Parent();
+        Child c1 = new Child();
+        c1.printData();
+        p1.printData();
     }
 }
 
-class parent {
-    public void printdata() {
+class Parent {
+    public void printData() {
         System.out.println("THIS IS PARENT CLASS");
     }
 }
 
-class child extends parent {
-    public void printdata() {
-        super.printdata();
+class Child extends Parent {
+    public void printData() {
+        super.printData();
         System.out.println("THIS IS CHILD CLASS");
     }
 }

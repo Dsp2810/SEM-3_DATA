@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/COLLEGE/SEM-3/DSA/LINKED LIST",
-      "program": "d:/COLLEGE/SEM-3/DSA/LINKED LIST/build/Debug/outDebug",
+      "cwd": "d:/CCP/DSA",
+      "program": "d:/CCP/DSA/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

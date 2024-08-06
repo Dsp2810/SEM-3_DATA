@@ -1,0 +1,33 @@
+CONSIDER SR : 3050h
+	 SP : DCBAh
+ef.add:		
+		30500h
+	      +  DCBAh
+	______________________
+	      = 3E1BAh
+
+
+CONSIDER SR : 4FE0h
+	 SP : 03BDh
+ef.add:	501BD
+
+
+	501BD
+      - 4FE00
+	_______
+	003BDh
+
+
+CONSIDER SR : 4FE0h
+	 DI : 8FFFh
+
+ef.add:	77FEEh
+		
+	6161616
+	
+	77FEEh
+     -   8FFFh
+	______
+	6EFEFh
+	    		
+	

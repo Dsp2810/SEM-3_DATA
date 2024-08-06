@@ -23,7 +23,7 @@ int *selection_sort(int arr[], int size)
     }
     return arr;
 }
-int main()  
+int main()
 {
     int size;
     cout << "ENTER THE SIZE OF ARRAY:" << endl;
